@@ -27,8 +27,8 @@ apps:
       - home
 
 parts:
-  snap-bash:
-    source: source
+  snapshot-exclude-demo:
+    source: source/
     plugin: dump
     organize:
       bash.sh: bin/
