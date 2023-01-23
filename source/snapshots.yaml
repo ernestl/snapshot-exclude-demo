@@ -1,0 +1,6 @@
+exclude:
+  - $SNAP_COMMON/.cache
+  - $SNAP_DATA/excl-* 
+  - $SNAP_USER_COMMON/tmp
+  - $SNAP_USER_DATA/large-files/*-not-used.*
+
