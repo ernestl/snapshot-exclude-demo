@@ -27,11 +27,16 @@ apps:
       - home
 
 parts:
-  snapshot-exclude-demo:
+  data-creation:
     source: source/
     plugin: dump
     organize:
       bash.sh: bin/
       create-system-data.sh: bin/
       create-user-data.sh: bin/
+      
+  snapshot-exclusions:
+    source: config/
+    plugin: dump
+    organize:
       snapshots.yaml: meta/
