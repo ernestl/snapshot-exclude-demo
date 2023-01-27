@@ -45,7 +45,7 @@ squashfs-root/
     └── snap.yaml
 ```
 
-### Run the snap bash application to create [$SNAP_USER_COMMON and $SNAP_USER_DATA](https://snapcraft.io/docs/data-locations) and exit
+### Run the snap bash application to create $SNAP_USER_COMMON and $SNAP_USER_DATA and exit
 ```
 snapshot-exclude-demo.bash
 ```
