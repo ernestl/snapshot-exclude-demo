@@ -122,3 +122,9 @@ as well as the user data that was not excluded from the snapshot in `/var/snap/s
     └── large-files
         └── large-file-used.bin
 ```
+
+### Diagram illustrating the snapshot data exclusion during the save and restore actions:
+
+
+![snapshot-exclusion-demo drawio (1)](https://user-images.githubusercontent.com/5872705/215036359-087cd60c-dc46-4281-a145-ef2a6e256a1f.png)
+
