@@ -27,6 +27,8 @@ snapcraft --use-lxd --debug
 ```
 sudo snap install snapshot-exclude-demo_0.1_amd64.snap --devmode --dangerous
 ```
+> ⓘ This snap uses devmode confinement as specified in `snapcraft.yaml` top-level metadata
+
 ### Inspect the content of the snap
 ```
 unsquashfs -f snapshot-exclude-demo_0.1_amd64.snap
@@ -45,7 +47,7 @@ squashfs-root/
     └── snap.yaml
 ```
 
-### Run the snap bash application to create $SNAP_USER_COMMON and $SNAP_USER_DATA and exit
+### Run the snap bash application to create directories `$SNAP_USER_COMMON` and `$SNAP_USER_DATA` and exit
 ```
 snapshot-exclude-demo.bash
 ```
@@ -94,7 +96,7 @@ This creates the following user data in `~/snap/snapshot-exclude-demo/`:
 ```
 snap save snapshot-exclude-demo
 ```
-> ⓘ  Take note of the *set ID* provided on completion of the `snap save` command
+> ⓘ Take note of the *set ID* provided on completion of the `snap save` command
 
 ### Restore the snapshot
 ```
