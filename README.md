@@ -76,7 +76,7 @@ This creates the following user data in `~/snap/snapshot-exclude-demo/`:
 ```
 snap save snapshot-exclude-demo
 ```
-Take note of the set ID
+> ⓘ  Take note of the *set ID* provided on completion of the `snap save` command
 
 ### Restore the snapshot
 ```
