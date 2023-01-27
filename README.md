@@ -25,9 +25,9 @@ snapcraft --use-lxd --debug
 ```
 ### Install the snap (note: this is a development mode snap)
 ```
-sudo snap install hello-world_0.1_amd64.snap --devmode --dangerous 
+sudo snap install snapshot-exclude-demo_0.1_amd64.snap --devmode --dangerous 
 ```
-### Run the snap bash application to create $SNAP_USER_COMMON and $SNAP_USER_DATA and exit
+### Run the snap bash application to create [$SNAP_USER_COMMON and $SNAP_USER_DATA](https://snapcraft.io/docs/data-locations) and exit
 ```
 snapshot-exclude-demo.bash
 ```
