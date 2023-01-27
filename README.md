@@ -40,7 +40,7 @@ exit
 ```
 sudo snapshot-exclude-demo.create-system-data
 ```
-This creates the following system data in /var/snap/snapshot-exclude-demo/:
+This creates the following system data in `/var/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   └── generic
@@ -58,7 +58,7 @@ This creates the following system data in /var/snap/snapshot-exclude-demo/:
 ```
 snapshot-exclude-demo.create-user-data
 ```
-This creates the following user data in /var/snap/snapshot-exclude-demo/:
+This creates the following user data in `/var/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   ├── generic
@@ -82,7 +82,7 @@ Take note of the set ID
 ```
 snap restore <set ID>
 ```
-This restores the system data that was not excluded from the snapshot in /var/snap/snapshot-exclude-demo/:
+This restores the system data that was not excluded from the snapshot in `/var/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   └── generic
@@ -92,7 +92,7 @@ This restores the system data that was not excluded from the snapshot in /var/sn
     └── state-info
         └── state.dat
 ```
-as well as the user data that was not excluded from the snapshot in /var/snap/snapshot-exclude-demo/:
+as well as the user data that was not excluded from the snapshot in `/var/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   └── generic
