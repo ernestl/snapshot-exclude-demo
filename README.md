@@ -58,7 +58,7 @@ This creates the following system data in `/var/snap/snapshot-exclude-demo/`:
 ```
 snapshot-exclude-demo.create-user-data
 ```
-This creates the following user data in `/var/snap/snapshot-exclude-demo/`:
+This creates the following user data in `~/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   ├── generic
