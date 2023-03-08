@@ -112,7 +112,7 @@ This restores the system data that was not excluded from the snapshot in `/var/s
     └── state-info
         └── state.dat
 ```
-as well as the user data that was not excluded from the snapshot in `/var/snap/snapshot-exclude-demo/`:
+as well as the user data that was not excluded from the snapshot in `~/snap/snapshot-exclude-demo/`:
 ```
 ├── common
 │   └── generic
