@@ -1,15 +1,9 @@
 ## How to build, install and use the snapshot-exclude-demo snap:
 
-### Install snapcraft
+### Install snapcraft, lxd and git
 ```
 sudo snap install snapcraft --classic
-```
-### Install lxd
-```
 sudo snap install lxd
-```
-### Install git
-```
 sudo apt update
 sudo apt install -y git
 ```
