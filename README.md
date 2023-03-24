@@ -30,7 +30,7 @@ tree squashfs-root
 ```
 This shows the optional metadata file `snapshots.yaml` installed into the snap meta directory:
 ```
-squashfs-root/
+squashfs-root
 ├── bin
 │   ├── bash.sh
 │   ├── create-system-data.sh
